@@ -13,7 +13,8 @@ Columns present in one dataframe but not the other
 Rows unique to each dataframe
 Mismatched rows with specific column differences
 Sample mismatched rows for quick review
-Usage
+
+- Usage
 1. Generate Sample Data: Modify the common_data and df2_additional dictionaries to customize the sample data.
 2. Compare DataFrames: Use the compare_dataframes function to compare two dataframes.
 3. Generate Report: Use the generate_report function to create a detailed comparison report.
@@ -24,10 +25,10 @@ numpy
 prettytable
 datetime
 
-Example
-differences = compare_dataframes(ddf1, ddf2, join_column)
-report = generate_report(df1, df2, differences, join_column=join_column, sample_rows=sample_rows, mismatch_sample=mismatch_sample)
-print(report)
+# Example
+- differences = compare_dataframes(ddf1, ddf2, join_column)
+- report = generate_report(df1, df2, differences, join_column=join_column, sample_rows=sample_rows, mismatch_sample=mismatch_sample)
+- print(report)
 )
 ---
 Feel free to customize this description further to better fit your project's specifics and goals.
