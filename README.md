@@ -29,7 +29,5 @@ differences = compare_dataframes(ddf1, ddf2, join_column)
 report = generate_report(df1, df2, differences, join_column=join_column, sample_rows=sample_rows, mismatch_sample=mismatch_sample)
 print(report)
 )
-License
-This project is licensed under the MIT License.
 ---
 Feel free to customize this description further to better fit your project's specifics and goals.
