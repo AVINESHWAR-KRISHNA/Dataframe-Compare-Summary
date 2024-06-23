@@ -14,7 +14,7 @@ Rows unique to each dataframe
 Mismatched rows with specific column differences
 Sample mismatched rows for quick review
 
-- Usage
+Usage
 1. Generate Sample Data: Modify the common_data and df2_additional dictionaries to customize the sample data.
 2. Compare DataFrames: Use the compare_dataframes function to compare two dataframes.
 3. Generate Report: Use the generate_report function to create a detailed comparison report.
