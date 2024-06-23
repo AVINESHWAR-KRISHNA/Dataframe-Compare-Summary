@@ -31,4 +31,4 @@ datetime
 - print(report)
 )
 ---
-Feel free to customize this description further to better fit your project's specifics and goals.
+Feel free to customize further to better fit your project's specifics and goals.
